@@ -1,0 +1,28 @@
+<link href="pixel-glass/styles.css" rel="stylesheet">
+  <script src="pixel-glass/script.js"></script>
+  <style>
+    HTML {
+      /* Your layout for mobile */
+    background: url( 'img/previews/mobile.png' ) 50% 0 no-repeat;
+  }
+
+/* Change min-width for your tablet device */
+  @media (min-width: 768px) {
+    HTML {
+      /* Your layout for tablet */
+      background-image: url( 'img/previews/tablet.png' );
+    }
+  }
+
+/* Change min-width for your desktop size */
+  @media (min-width: 1150px) {
+    HTML {
+      /* Your layout for desktop */
+      background-image: url( 'img/previews/desktop.png' );
+    }
+  }
+
+  BODY {
+    opacity: .5;
+  }
+</style>
